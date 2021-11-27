@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meu site</title>
+</head>
+<body>
+	<h1>Cadastro </h1>
+	<form action="http://191.252.62.149:8080/pweb/salvar.jps"  method="post"> 
+		Login:<br>
+		<input type="text" name="login"><br>
+
+		Senha:<br>
+		<input type="text" name="senha"><br>
+
+		Confirme a senha: <br>
+		<input type="text" name="senha"><br>
+
+		Nome: <br>
+		<input type="text" name="nome"><br>
+
+		Sexo:<br>
+		<input type="radio" value="Masculino"  name="sexo">Masculino<br>
+		<input type="radio" value="Feminino" name="sexo">Feminino<br>
+
+		Email:<br>
+		<input type="text" name="Email"><br>
+
+		Interesses:<br>
+		<input type="checkbox" value="Futebol" name="Interessses">Futebol<br>
+		<input type="checkbox" value="Política"  name="Interesses">Política<br>
+		<input type="checkbox" value="Economia" name="Interesses">Economia<br>
+		<input type="checkbox" value="Carros" name="Interesses">Carros<br>
+		<input type="checkbox" value="Calebridades" name="Interesses">Celebridades<br>
+
+		Estado:<br>
+		<select name="estado" >
+		<option value="select" >Selecione o estado</option>  
+		<option value="PI">PI</option>
+		<option value="CE">CE</option>
+		<option value="MA">MA</option>
+		</select><br>
+
+        observações:<br>
+        <textarea cols="50s" name="observações"></textarea>		
+
+        <br>		
+
+		<input type="submit" name="Enviar">
+
+
+
+	</form>
+
+</body>
+</html>
